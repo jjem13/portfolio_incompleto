@@ -34,12 +34,12 @@ header {
 }
 
 
-.menu-disciplina {
+.menu__disciplina {
     width: 20%;
     display: inline-block;
 }
 
-.botao-disciplinas {
+.botao__disciplinas {
     cursor: pointer;
     font-size: 2rem;
     background: none;
@@ -49,11 +49,11 @@ header {
     color: var(--roxo-claro);
 }
 
-#menu-toggle {
+#menu__toggle {
     display: none;
 }
 
-.lista-vertical {
+.lista__vertical {
     display: none;
     position: absolute;
     background-color: var(--roxo-claro);
@@ -64,7 +64,7 @@ header {
     top: 100%;
 }
 
-.lista-vertical a {
+.lista__vertical a {
     color: var(--preto);
     padding: 0.75rem 1rem;
     text-decoration: none;
@@ -73,19 +73,19 @@ header {
     text-align: center;
 }
 
-.lista-vertical a:hover {
+.lista__vertical a:hover {
     background-color: var(--amarelo-claro);
 }
 
-#menu-toggle:checked~.lista-vertical {
+#menu__toggle:checked~.lista-vertical {
     display: block;
 }
 
-#menu-toggle:checked+.botao-disciplinas {
+#menu__toggle:checked+.botao-disciplinas {
     background-color: var(--amarelo-claro);
 }
 
-.links-principais {
+.links__principais {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -93,7 +93,7 @@ header {
 }
 
 
-.lista-horizontal {
+.lista__horizontal {
     list-style: none;
     display: flex;
     font-size: 2rem;
@@ -101,12 +101,12 @@ header {
 }
 
 
-.lista-horizontal a {
+.lista__horizontal a {
     text-decoration: none;
     color: var(--amarelo-claro);
 }
 
-.lista-horizontal a:hover {
+.lista__horizontal a:hover {
     color: var(--preto);
 }
 
@@ -122,7 +122,7 @@ h1 {
     font-size: 4rem;
 }
 
-.biologia-container {
+.biologia__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
